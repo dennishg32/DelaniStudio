@@ -128,9 +128,12 @@ input[type="email"] {
 
 .footer {
     display: flex;
-    align-items: center;
+}
+
+.rowflex {
+    margin-top: 20px;
     justify-content: center;
-    min-height: 10vh;
+    text-align: center;
 }
 
 @media (max-width: 800px) {
