@@ -33,14 +33,15 @@ body {
     margin-top: 30%;
 }
 
-.section2 {
-    min-height: 50vh;
-}
-
 .section2>.about {
+    margin-top: 50px;
+    margin-bottom: 100px;
     justify-content: center;
     text-align: center;
-    margin-top: 13px;
+}
+
+p {
+    font-size: 18px;
 }
 
 .section3 {
@@ -49,8 +50,15 @@ body {
     display: flex;
     height: 60vh;
     color: white;
-    align-items: center;
+    text-align: center;
     justify-content: center;
+}
+
+.section3>div {
+    margin-top: 145px;
+    margin-bottom: 100px;
+    justify-content: center;
+    text-align: center;
 }
 
 .section4 {
@@ -73,6 +81,25 @@ body {
     margin-top: 13px;
 }
 
+.flex-imagerow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture {
+    padding: 10px;
+    flex: 100%;
+    max-width: 25%;
+}
+
+.picture img {
+    margin-top: 8px;
+    max-width: 250px;
+}
+
 .section6 {
     background: url(../images/backgrounds/c_image.jpg) no-repeat;
     background-size: cover;
@@ -88,4 +115,10 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 10vh;
+}
+
+@media (max-width: 800px) {
+    .flex-imagerow {
+        flex-direction: column;
+    }
 }
