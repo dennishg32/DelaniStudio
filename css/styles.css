@@ -24,3 +24,41 @@ body {
     justify-content: center;
     text-align: center;
 }
+
+.icon-d {
+    margin-top: 40%;
+}
+
+.logo-icon {
+    margin-top: 30%;
+}
+
+.section2 {
+    min-height: 50vh;
+}
+
+.section2>.about {
+    justify-content: center;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.section3 {
+    background: url(../images/backgrounds/s_image.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 60vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4 {
+    min-height: 50vh;
+}
+
+.section4>.whatwedo {
+    justify-content: center;
+    text-align: center;
+    margin-top: 13px;
+}
