@@ -14,10 +14,10 @@ body {
     background: url(../images/backgrounds/h_img.jpg) no-repeat;
     background-size: cover;
     display: flex;
-    min-height: 100vh;
     color: white;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .section1>div {
@@ -61,4 +61,31 @@ body {
     justify-content: center;
     text-align: center;
     margin-top: 13px;
+}
+
+.section5 {
+    min-height: 50vh;
+}
+
+.section5 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.section6 {
+    background: url(../images/backgrounds/c_image.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
 }
