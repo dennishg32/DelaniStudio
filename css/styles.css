@@ -110,6 +110,22 @@ p {
     min-height: 60vh;
 }
 
+input[type="text"],
+input[type="email"] {
+    background: transparent;
+    color: white;
+}
+
+.title-contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row {
+    margin-top: 20px;
+    color: white;
+}
+
 .footer {
     display: flex;
     align-items: center;
