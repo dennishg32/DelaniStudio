@@ -65,6 +65,17 @@ p {
     min-height: 50vh;
 }
 
+.section4 h6 {
+    font-size: 20px;
+    color: black;
+}
+
+.section4 p {
+    color: black;
+    font-size: 16px;
+    display: none;
+}
+
 .section4>.whatwedo {
     justify-content: center;
     text-align: center;
