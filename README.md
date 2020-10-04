@@ -29,6 +29,12 @@ To access this website you must have
 - Internet access
 - Browser (chrome, safari, firefox)
 
+## BDD
+
+- Client checks information
+- The web offers the client to contribute through the form of contact us
+- The website offers more information hidden inside of icons
+
 ## Known Bugs
 
 If you find a bug, kindly open an issue [here](https://github.com/dennishg32/DelaniStudio/issues) by including your search and the expected result.
