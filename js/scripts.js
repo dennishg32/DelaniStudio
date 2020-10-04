@@ -1,3 +1,9 @@
+function isEmail(email) {
+    return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+        email
+    );
+}
+
 $(document).ready(function() {
     $("#design-toggle").click(function() {
         $("#p1").toggle();
@@ -12,7 +18,7 @@ $(document).ready(function() {
         $("#p3").toggle();
         $("#img3").toggle();
     });
-    $("#fills form").submit(function(event) {
+    $("form#fills").submit(function(event) {
         var name = $("input#name").val();
         var email = $("input#email").val();
         var msg = $("textarea#message").val();
@@ -22,10 +28,11 @@ $(document).ready(function() {
                 name +
                 ", We have recieved your feedback. Thank you for your support and reach to us, it means a lot"
             );
-        } else {
+        } else if (!isEmail(email)) {
             alert("incomplete, try again please");
+        } else {
+            alert("invalid input");
         }
-
         event.preventDefault();
     });
 });
